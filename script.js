@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // In a real scenario, you'd fetch a manifest/list of articles
         // For now, let's hardcode a placeholder or assume names
-        const articleFiles = ['example-article.md']; // Example: will be replaced with actual article names
+        const articleFiles = ['the-transformative-power-of-modern-engineering.md', 'example-article.md']; // Example: will be replaced with actual article names
 
         for (const file of articleFiles) {
             const content = await fetchArticle(file);
