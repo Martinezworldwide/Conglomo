@@ -1,0 +1,4 @@
+# Gitignore for Conglomo Blog
+node_modules/
+.DS_Store
+.env
